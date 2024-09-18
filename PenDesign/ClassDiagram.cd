@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Refill">
+    <Position X="3" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>Refill.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ink_" />
+      <Field Name="nib_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AddGelTrimaxWriteStrategy">
+    <Position X="1" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AddGelTrimaxWriteStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BallpointPen">
+    <Position X="0.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>BallpointPen.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="refill_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ButterFlowWriteStrategy">
+    <Position X="3.25" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ButterFlowWriteStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapClosingBehavior">
+    <Position X="5.75" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>CapClosingBehavior.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClickClosingBehavior">
+    <Position X="8.25" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ClickClosingBehavior.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FountainPen">
+    <Position X="3" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAEAAQA=</HashCode>
+      <FileName>FountainPen.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ink_" />
+      <Field Name="nib_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GelPen">
+    <Position X="5.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>GelPen.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="refill_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IClosingBehavior">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAA=</HashCode>
+      <FileName>IClosingBehavior.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAACA=</HashCode>
+      <FileName>Ink.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="type_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IWriteStrategy">
+    <Position X="2" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>IWriteStrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nib">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pen">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAACEACAAAAAAAAAAAAAAAAAAAAAAAAAGAIEA=</HashCode>
+      <FileName>Pen.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="type_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PenFactory">
+    <Position X="4.75" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PenFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="InkType">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>InkType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PenType">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>PenType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
